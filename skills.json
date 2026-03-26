@@ -1,0 +1,34 @@
+{
+  "skills": [
+    {
+      "name": "vue-skill",
+      "displayName": "Vue 前端开发",
+      "path": "vue",
+      "enabled": true,
+      "description": "专业的 Vue.js 前端开发助手，擅长 Vue 2/3 项目开发、组件设计、状态管理和性能优化"
+    },
+    {
+      "name": "react-skill",
+      "displayName": "React 前端开发",
+      "path": "react",
+      "enabled": true,
+      "description": "专业的 React 前端开发助手，擅长 React 18+、Hooks、状态管理和现代前端架构"
+    },
+    {
+      "name": "typescript-helper",
+      "displayName": "TypeScript 助手",
+      "path": "typescript",
+      "enabled": true,
+      "description": "专业的 TypeScript 开发助手，提供类型定义、泛型、工具类型等帮助"
+    },
+    {
+      "name": "css-stylist",
+      "displayName": "CSS 样式专家",
+      "path": "css",
+      "enabled": true,
+      "description": "专业的 CSS/样式开发助手，擅长 Tailwind CSS、Sass、CSS Modules 和现代布局技术"
+    }
+  ],
+  "version": "1.0.0",
+  "author": "tyd1157198677"
+}

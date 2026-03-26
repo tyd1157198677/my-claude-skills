@@ -1,0 +1,21 @@
+{
+  "name": "typescript-helper",
+  "displayName": "TypeScript 助手",
+  "description": "专业的 TypeScript 开发助手，提供类型定义、泛型、工具类型等帮助",
+  "version": "1.0.0",
+  "author": "tyd1157198677",
+  "license": "MIT",
+  "keywords": ["typescript", "ts", "types", "generics", "type-safety"],
+  "activationEvents": [
+    "onKeyword:typescript",
+    "onKeyword:ts",
+    "onKeyword:type ",
+    "onKeyword:interface ",
+    "onKeyword:generic",
+    "onKeyword:泛型",
+    "onKeyword:类型",
+    "onFile:.ts",
+    "onFile:.tsx"
+  ],
+  "main": "system-prompt.md"
+}

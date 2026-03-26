@@ -1,0 +1,35 @@
+{
+  "name": "vue-skill",
+  "displayName": "Vue 前端开发",
+  "description": "专业的 Vue.js 前端开发助手，擅长 Vue 2/3 项目开发、组件设计、状态管理和性能优化",
+  "version": "1.0.0",
+  "author": "tyd1157198677",
+  "license": "MIT",
+  "keywords": ["vue", "frontend", "javascript", "typescript", "composition-api"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tyd1157198677/my-claude-skills.git"
+  },
+  "engines": {
+    "claude-code": ">=1.0.0"
+  },
+  "activationEvents": [
+    "onKeyword:vue",
+    "onKeyword:vue.js",
+    "onKeyword:vue3",
+    "onKeyword:composition-api",
+    "onKeyword:pinia",
+    "onKeyword:vuex",
+    "onKeyword:nuxt",
+    "onFile:.vue"
+  ],
+  "main": "system-prompt.md",
+  "contributes": {
+    "skills": [
+      {
+        "name": "vue-developer",
+        "description": "Vue.js 开发专家"
+      }
+    ]
+  }
+}

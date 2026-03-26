@@ -1,0 +1,27 @@
+{
+  "name": "css-stylist",
+  "displayName": "CSS 样式专家",
+  "description": "专业的 CSS/样式开发助手，擅长 Tailwind CSS、Sass、CSS Modules 和现代布局技术",
+  "version": "1.0.0",
+  "author": "tyd1157198677",
+  "license": "MIT",
+  "keywords": ["css", "tailwind", "sass", "scss", "less", "styled-components", "layout"],
+  "activationEvents": [
+    "onKeyword:css",
+    "onKeyword:style",
+    "onKeyword:tailwind",
+    "onKeyword:sass",
+    "onKeyword:scss",
+    "onKeyword:less",
+    "onKeyword:styled-components",
+    "onKeyword:emotion",
+    "onKeyword:flexbox",
+    "onKeyword:grid",
+    "onKeyword:animation",
+    "onFile:.css",
+    "onFile:.scss",
+    "onFile:.less",
+    "onFile:.pcss"
+  ],
+  "main": "system-prompt.md"
+}

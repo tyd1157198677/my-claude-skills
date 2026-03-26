@@ -1,0 +1,37 @@
+{
+  "name": "react-skill",
+  "displayName": "React 前端开发",
+  "description": "专业的 React 前端开发助手，擅长 React 18+、Hooks、状态管理和现代前端架构",
+  "version": "1.0.0",
+  "author": "tyd1157198677",
+  "license": "MIT",
+  "keywords": ["react", "frontend", "javascript", "typescript", "hooks", "jsx"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tyd1157198677/my-claude-skills.git"
+  },
+  "engines": {
+    "claude-code": ">=1.0.0"
+  },
+  "activationEvents": [
+    "onKeyword:react",
+    "onKeyword:react.js",
+    "onKeyword:reactjs",
+    "onKeyword:hooks",
+    "onKeyword:jsx",
+    "onKeyword:redux",
+    "onKeyword:zustand",
+    "onKeyword:next.js",
+    "onFile:.jsx",
+    "onFile:.tsx"
+  ],
+  "main": "system-prompt.md",
+  "contributes": {
+    "skills": [
+      {
+        "name": "react-developer",
+        "description": "React.js 开发专家"
+      }
+    ]
+  }
+}
